@@ -901,6 +901,16 @@ video {
   padding-right: 0.75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -1007,6 +1017,11 @@ video {
   color: rgb(202 138 4 / var(--tw-text-opacity));
 }
 
+.text-yellow-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1088,6 +1103,10 @@ video {
     padding-right: 2.5rem;
   }
 
+  .sm\:text-left {
+    text-align: left;
+  }
+
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1137,6 +1156,16 @@ video {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .md\:text-left {
